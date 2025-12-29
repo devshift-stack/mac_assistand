@@ -1,0 +1,9 @@
+__MACOSX/
+*.pyc
+__pycache__/
+build/
+*.spec
+.DS_Store
+*.log
+.env
+.env.local
