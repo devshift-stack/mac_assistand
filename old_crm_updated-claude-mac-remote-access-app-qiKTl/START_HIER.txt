@@ -1,0 +1,138 @@
+╔═══════════════════════════════════════════════════════════╗
+║                                                           ║
+║        MAC REMOTE ASSISTANT v2.0 🤖                      ║
+║        Erweiterbarer KI-Assistent für macOS              ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝
+
+📦 SCHNELLSTART
+═══════════════════════════════════════════════════════════
+
+1️⃣  ZIP entpacken:
+   unzip mac_assistant_v2.0_complete.zip
+
+2️⃣  Setup ausführen:
+   cd mac_assistant
+   chmod +x setup.sh
+   ./setup.sh
+
+3️⃣  API Key setzen:
+   export ANTHROPIC_API_KEY='sk-ant-your-key-here'
+
+4️⃣  App starten:
+   source venv/bin/activate
+   python3 main.py
+
+═══════════════════════════════════════════════════════════
+
+🎯 WAS KANN DIE APP?
+
+✅ Plugin-System - Einfach neue Apps hinzufügen
+✅ KI-Automation - Tasks in natürlicher Sprache
+✅ Zeitreise - "Was habe ich vor 3 Tagen gemacht?"
+✅ Multi-App - Mail, Slack, Viber, Telegram, Photos
+✅ Task Execution - Einfache & Multi-Step Tasks
+
+═══════════════════════════════════════════════════════════
+
+📱 VERFÜGBARE PLUGINS
+
+• Mail.app - E-Mails lesen, senden, durchsuchen
+• Slack - Nachrichten, Channels, Status
+• Viber - Nachrichten senden & empfangen
+• Telegram - Messaging
+• Photos - Fotos suchen, löschen, organisieren
+
+...und du kannst BELIEBIGE weitere Apps hinzufügen!
+
+═══════════════════════════════════════════════════════════
+
+💡 BEISPIELE
+
+"Was habe ich gestern um 15 Uhr gemacht?"
+"Sende E-Mail an max@example.com mit Betreff Meeting"
+"Sende Slack-Nachricht an #team: Deployment läuft"
+"Suche Fotos von letzter Woche"
+"Suche überall nach 'Projekt X'"
+
+═══════════════════════════════════════════════════════════
+
+🔌 EIGENE PLUGINS ERSTELLEN
+
+1. Kopiere: plugins/PLUGIN_TEMPLATE.py
+2. Passe an für deine App
+3. Registriere in core_v2.py
+4. Fertig! 🎉
+
+Siehe: HOW_TO_ADD_PLUGINS.md
+
+═══════════════════════════════════════════════════════════
+
+📚 DOKUMENTATION
+
+mac_assistant/
+├── README.md                   Vollständige Dokumentation (EN)
+├── README_DE.md                Deutsche Version
+├── HOW_TO_ADD_PLUGINS.md       Plugin-Entwicklung (DE)
+├── INSTALLATION.md             Installationsanleitung
+└── plugins/
+    └── PLUGIN_TEMPLATE.py      Template für neue Plugins
+
+═══════════════════════════════════════════════════════════
+
+⚙️  SYSTEMANFORDERUNGEN
+
+• macOS 10.14 oder neuer
+• Python 3.8+
+• Anthropic API Key (anthropic.com)
+
+═══════════════════════════════════════════════════════════
+
+🔒 BERECHTIGUNGEN
+
+Die App benötigt:
+• Bedienungshilfen (Accessibility)
+• Automation für: Mail, Photos, Messages, etc.
+
+Systemeinstellungen → Sicherheit → Datenschutz
+
+═══════════════════════════════════════════════════════════
+
+📦 INHALT DIESER ZIP-DATEI
+
+• mac_assistant/          Komplette App
+• INSTALLATION.md         Installationsanleitung
+• START_HIER.txt         Diese Datei
+
+═══════════════════════════════════════════════════════════
+
+🚀 LOSLEGEN
+
+Öffne Terminal und führe aus:
+
+   cd Downloads
+   unzip mac_assistant_v2.0_complete.zip
+   cd mac_assistant
+   ./setup.sh
+
+Dann folge den Anweisungen auf dem Bildschirm!
+
+═══════════════════════════════════════════════════════════
+
+💻 PYTHON API
+
+from mac_assistant.core_v2 import MacAssistantCore
+
+core = MacAssistantCore()
+result = core.execute_task("Sende Nachricht an Max")
+
+═══════════════════════════════════════════════════════════
+
+🎉 Viel Spaß mit deinem Mac Remote Assistant!
+
+Bei Fragen:
+• Siehe README.md
+• Siehe HOW_TO_ADD_PLUGINS.md
+• Prüfe macOS-Berechtigungen
+
+═══════════════════════════════════════════════════════════

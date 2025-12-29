@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Mac Remote Assistant</string>
+	<key>CFBundleDocumentTypes</key>
+	<array/>
+	<key>CFBundleExecutable</key>
+	<string>Mac Remote Assistant</string>
+	<key>CFBundleIconFile</key>
+	<string>icon-windowed.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.activi-dev.mac-remote-assistant</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>Mac Remote Assistant</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.0.0</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Mac Remote Assistant needs to control other apps to automate tasks.</string>
+	<key>NSAppleScriptEnabled</key>
+	<true/>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Mac Remote Assistant needs calendar access for scheduling.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Mac Remote Assistant needs contacts access for messaging.</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Mac Remote Assistant needs photo library access to manage photos.</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+	<key>NSRequiresAquaSystemAppearance</key>
+	<false/>
+</dict>
+</plist>

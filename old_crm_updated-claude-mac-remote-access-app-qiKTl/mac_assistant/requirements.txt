@@ -1,0 +1,10 @@
+# Mac Remote Assistant Requirements
+
+# AI / Claude API
+anthropic>=0.34.0
+
+# Database
+# SQLite is included in Python standard library
+
+# No additional requirements for AppleScript (uses subprocess)
+# No additional requirements for tkinter (included in Python on macOS)
